@@ -1,16 +1,188 @@
+@media only screen and (max-width: 767px) {
 *{
     margin: 0;
     padding: 0;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
 }
 main{
-    width:500px;
-    height:500px;
+    
     position:relative;
-    top: 100px;
+    top: 50px;
     overflow:hidden;
     margin: 0 auto;
+    box-shadow: 10px 15px 15px 10px #000;
+    width: 70%;
+    height: 70%;
+    background-color: black ;
+    border-radius: 25px;
 }
 h1{
     text-align:center;
+    
+}
+p{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    font-style: italic;
+}
+
+    
+   
+    
+
+button {
+    background-color:#4CAF50; /* Green */
+    height: 40px;
+    width: 200px;
+    color: white;
+    margin: 20px 0px 0px 40px;
+    font-size:20px ;
+    font-weight: 600;
+    border-radius: 20px;
+}
+input{
+    margin: 10px 0px 10px 40px;
+    border: 2px solid ;
+    height: 40px;
+    width: 200px;
+
+}
+#resultat{
+    
+    margin: 10px 0px 10px 50px;
+    font-size: 24px;
+    font-weight: 400;
+    color: white;
+}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    /*Affichage tabblette*/
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        box-sizing: border-box;
+    }
+    main{
+        
+        position:relative;
+        top: 50px;
+        overflow:hidden;
+        margin: 0 auto;
+        box-shadow: 10px 15px 15px 10px #000;
+        width: 70%;
+        height: 70%;
+        background-color: black ;
+        border-radius: 25px;
+    }
+    h1{
+        text-align:center;
+        
+    }
+    p{
+        text-align: center;
+        font-size: 24px;
+        font-weight: 400;
+        font-style: italic;
+    }
+    
+        
+       
+        
+    
+    button {
+        background-color:#4CAF50; /* Green */
+        height: 40px;
+        width: 200px;
+        color: white;
+        margin: 20px 0px 0px 40px;
+        font-size:20px ;
+        font-weight: 600;
+        border-radius: 20px;
+    }
+    input{
+        margin: 10px 0px 10px 40px;
+        border: 2px solid ;
+        height: 40px;
+        width: 200px;
+        font-weight: 600;
+        font-size: 24px;
+    
+    }
+    #resultat{
+        
+        margin: 10px 0px 10px 50px;
+        font-size: 24px;
+        font-weight: 400;
+        color: white;
+    }
+
+
+}
+@media screen and (min-width: 1024px) {
+    /*Affichage desktop*/
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        box-sizing: border-box;
+    }
+    main{
+        
+        position:relative;
+        top: 50px;
+        overflow:hidden;
+        margin: 0 auto;
+        box-shadow: 10px 15px 15px 10px #000;
+        width: 70%;
+        height: 70%;
+        background-color: black ;
+        border-radius: 25px;
+    }
+    h1{
+        text-align:center;
+        
+    }
+    p{
+        text-align: center;
+        font-size: 24px;
+        font-weight: 400;
+        font-style: italic;
+    }
+    
+        
+       
+        
+    
+    button {
+        background-color:#4CAF50; /* Green */
+        height: 40px;
+        width: 200px;
+        color: white;
+        margin: 20px 0px 0px 40px;
+        font-size:20px ;
+        font-weight: 600;
+        border-radius: 20px;
+    }
+    input{
+        margin: 10px 0px 10px 40px;
+        border: 2px solid ;
+        height: 40px;
+        width: 200px;
+        font-weight: 600;
+        font-size: 24px;
+    
+    }
+    #resultat{
+        
+        margin: 10px 0px 10px 50px;
+        font-size: 24px;
+        font-weight: 400;
+        color: white;
+    }
+
+
 }
